@@ -12,6 +12,9 @@ run:
 		-d --privileged \
 		hwdsl2/ipsec-vpn-server
 
+stop:
+	docker stop ipsec-vpn-server
+
 logs:
 	docker logs ipsec-vpn-server
 
